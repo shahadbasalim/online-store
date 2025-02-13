@@ -1,4 +1,3 @@
-import "./cart.css";
 import Header from "../home-page/header/Header";
 import Footer from "../home-page/footer/Footer";
 import Breadcrumb from "../all-products-page/breadcrumb/Breadcrumb";

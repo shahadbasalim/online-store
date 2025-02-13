@@ -20,6 +20,9 @@ body {
     border: 2px solid black !important;
     font-size: 14px !important;
 }
+.main-button:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
 .paragraph {
     font-size: 17px;
     color: #8a8a8a;

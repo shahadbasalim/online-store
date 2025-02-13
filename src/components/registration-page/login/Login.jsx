@@ -10,7 +10,7 @@ export default function Login() {
         if (error) {
             setErrorMessage(error);
         } else {
-            navigate("/store");
+            navigate("/");
             
 
         }

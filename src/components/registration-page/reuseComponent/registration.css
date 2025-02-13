@@ -35,6 +35,8 @@
         justify-content: center;
         gap: 0;
         padding: 0 20px;
+        height: 65%;
+        box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
     }
     .registration .registration-content .form {
         width: 100%;

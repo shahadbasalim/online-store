@@ -10,7 +10,7 @@ export default function Signup() {
         if (error) {
             setErrorMessage(error);
         } else {
-            navigate("/store");
+            navigate("/");
         }
     };
 
