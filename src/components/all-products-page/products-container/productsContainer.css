@@ -1,0 +1,29 @@
+.products-container {
+    justify-content: center;
+    gap: 20px;
+    max-width: 1000px;
+    flex-wrap: wrap;
+}
+.products-container .product-card {
+    width: 300px;
+    height: 370px;
+}
+.products-container .product-name {
+    font-weight: bold !important;
+    font-size: 20px !important;
+}
+.products-container .product-description {
+    height: 40px;
+}
+.products-container .product-colors span {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 10px 5px;
+    border: 1px solid black;
+}
+.products-container .product-price {
+    float: left;
+    font-size: 20px !important;
+}

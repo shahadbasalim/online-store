@@ -1,0 +1,29 @@
+.hero .hero-content {
+    height: calc(100vh - 109.7px);
+    background-image: url("/shopping-backgrounds/bg3.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 80px;
+}
+.hero .brands {
+    padding: 40px;
+}
+.hero .brands .brand {
+    width: 100%;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+/* media query */
+
+@media (max-width: 576px) {
+    .hero .hero-content {
+        padding: 0;
+        align-items: center;
+        text-align: center;
+    }
+}

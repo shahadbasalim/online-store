@@ -1,0 +1,18 @@
+.all-products {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.all-products .all-products-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* media query */
+@media (max-width: 992px) {
+    .all-products .all-products-content {
+        flex-direction: column;
+        gap: 20px;
+        align-items: start;
+    }
+}

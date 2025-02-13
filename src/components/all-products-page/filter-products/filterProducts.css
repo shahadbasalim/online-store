@@ -1,0 +1,23 @@
+.filter-products .sizes {
+    display: flex;
+    gap: 10px;
+}
+.filter-products .sizes .size {
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.filter-products .colors {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.filter-products .colors .color {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 10px grey;
+}

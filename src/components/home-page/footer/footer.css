@@ -1,0 +1,20 @@
+footer {
+    padding: 20px 10px;
+}
+footer .footer-content {
+    justify-content: center;
+    position: relative;
+}
+footer .footer-content .right-line,
+footer .footer-content .left-line {
+    position: absolute;
+    width: 43%;
+    height: 1px;
+    background-color: var(--border);
+}
+footer .footer-content .right-line {
+    right: 0;
+}
+footer .footer-content .left-line {
+    left: 0;
+}

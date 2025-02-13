@@ -1,0 +1,28 @@
+.order {
+    height: 300px;
+    background-image: url("/shopping-backgrounds/bg4.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+    padding-left: 80px;
+}
+
+/* media query */
+
+@media (max-width: 576px) {
+    .order {
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+    }
+    .order .order-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+}

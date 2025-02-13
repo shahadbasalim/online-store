@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap");
+:root {
+    --blue: #5b86e5;
+    --border: #dedfe1;
+}
+body {
+    font-family: "Tajawal", serif;
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+}
+.flex {
+    display: flex;
+    align-items: center;
+}
+.main-button {
+    font-weight: bold !important;
+    padding: 10px 40px !important;
+    border-radius: 30px !important;
+    border: 2px solid black !important;
+    font-size: 14px !important;
+}
+.paragraph {
+    font-size: 17px;
+    color: #8a8a8a;
+}
+.title {
+    font-weight: bold !important;
+    font-size: 30px !important;
+}
